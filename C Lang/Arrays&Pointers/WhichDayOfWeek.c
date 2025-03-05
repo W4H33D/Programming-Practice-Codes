@@ -8,8 +8,8 @@ with array indexing.
 Before the program gets a value from the array, it must first check if the given day is greater than or equal to zero and less than 7. If not, it should print the message: Error, no such day..
 
 ```hint
-	0			1			2			3		  4			5			6
-	|			|			|			|		  |			|			|
+0		1	  2	      3		  4          5          6
+|		|	  |	      |		  |	     |		|
 [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 ```
 */
