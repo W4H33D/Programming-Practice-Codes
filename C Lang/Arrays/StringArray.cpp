@@ -1,0 +1,17 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    char word[20];
+    cout << "Enter A Word: ";
+    cin >> word;
+    cout << "Echo: " << word << endl;
+    for(int i = 0; i < word[i] != 0; i++)
+    {
+        cout << word[i] << " ";
+    }
+
+    return 0;
+}
