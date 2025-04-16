@@ -8,7 +8,7 @@ int main()
     cout << "Enter A Word: ";
     cin >> word;
     cout << "Echo: " << word << endl;
-    for(int i = 0; i < word[i] != 0; i++)
+    for(int i = 0; word[i] != '\0'; i++)
     {
         cout << word[i] << " ";
     }
