@@ -12,6 +12,6 @@ int main()
     {
         cout << word[i] << " ";
     }
-
+    // cin.getline(word, 20);
     return 0;
 }
