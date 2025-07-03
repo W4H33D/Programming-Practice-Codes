@@ -19,7 +19,7 @@ int isValid(char ptr[])
    int result = sscanf(ptr, "%d.%d.%d.%d%c", &oct1, &oct2, &oct3, &oct4, &extra);
    //printf("oct1: %d, oct2: %d, oct3: %d, oct4: %d\n", oct1, oct2, oct3, oct4);
    //printf("%d", result);
-   if (result == 4)  // Not correctly parsing 192.168.10.1a as Invalid
+   if (result == 4)
    {
       if ((oct1 >= 0 && oct1 <= 255) && (oct2 >= 0 && oct2 <= 255) && (oct3 >= 0 && oct3 <= 255) && (oct4 >=0 && oct4 <= 255))
       {
