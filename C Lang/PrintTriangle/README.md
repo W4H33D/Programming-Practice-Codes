@@ -69,12 +69,13 @@ Enter the size of triangles: 5
 
 Expected output
 Backslash Triangle:
+```
 \
 \\
 \\\
 \\\\
 \\\\\
-
+```
 Floyd's Triangle:
 ```
 1
