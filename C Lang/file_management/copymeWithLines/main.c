@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
     }
 
     for (int Lineno = 1; fgets(buffer, size, src) != NULL; Lineno++) {
-        fprintf(dest, "%d | %s", Lineno, buffer);
+        fprintf(dest, "%3d | %s", Lineno, buffer);
     }
 
     fclose(src);
