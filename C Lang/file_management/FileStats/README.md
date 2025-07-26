@@ -49,10 +49,9 @@ This project uses CMake for its build system, making it straightforward to compi
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/FileStats.git](https://github.com/YOUR_USERNAME/FileStats.git)
+    git clone https://github.com/W4H33D/FileStats.git
     cd FileStats
     ```
-    (Replace `YOUR_USERNAME` with your actual GitHub username)
 
 2.  **Create a build directory:**
     ```bash
