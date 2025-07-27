@@ -1,4 +1,4 @@
-# File Copy Tool
+# CPme_Wnew (Copy Me With New)
 
 A command-line utility written in C for copying the contents of one file to a new destination file. If the destination file already exists, the tool automatically appends an incremental number to the filename and retries up to five times.
 
