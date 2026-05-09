@@ -31,3 +31,14 @@ multi-hour analysis job.
   so you can report them to the sales team later?
 > - Logic Check – what would happen to your average calculation if the input list was completely empty?
   (Hint: Review the if len(clean_data) > 0 logic in the sample solution).
+
+---
+
+**Script Output**
+```py
+sales_stats['cleaned_sales'] = [25.5, 40.0, 15.75, 100.0]
+sales_stats['total_sales'] = 181.25
+sales_stats['average_sales'] = 45.3125
+sales_stats['count'] = 4
+sales_stats['errors'] = [(1, 'error'), (4, 'missing')]
+```
