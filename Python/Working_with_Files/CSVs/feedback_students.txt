@@ -1,0 +1,12 @@
+StudentID StudentName          Course                        Feedback                                                                          Rating 
+
+S001      Alice Johnson        Data Science Fundamentals     Excellent course material, very clear explanations.                               5
+S002      Bob Williams         Machine Learning Basics       Good content, but some topics were rushed. More examples would be helpful.        3
+S003      Charlie Brown        Python for Data Analysis      Interactive labs were great, instructor was very helpful.                         4
+S004      Diana Miller         Statistical Methods           Found the lectures a bit dry, but the exercises were useful.                      2
+S005      Eve Davis            Big Data Technologies         Challenging but rewarding. Learned a lot about distributed systems.               4
+S006      Frank White          Data Visualization            Loved the practical projects and the visual examples.                             5
+S007      Grace Taylor         Deep Learning Concepts        Complex subject, good introduction, but could use more advanced topics.           3
+S008      Henry Green          SQL for Data Science          Clear and concise, everything I needed to know for SQL basics.                    5
+S009      Ivy Black            Cloud Data Platforms          Struggled with setup, but the core concepts were well explained.                  3
+S010      Jack Wilson          Ethics in AI                  Very thought-provoking discussions, highly recommend.                             5
