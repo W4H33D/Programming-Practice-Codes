@@ -1,0 +1,82 @@
+
+<style>
+.stat-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; }
+.stat-label { font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-text-tertiary); margin: 0 0 4px; }
+.stat-name { font-size: 17px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 6px; }
+.stat-desc { font-size: 13px; color: var(--color-text-secondary); line-height: 1.55; margin: 0 0 10px; }
+.tag { display: inline-block; font-size: 11px; padding: 3px 8px; border-radius: 4px; font-weight: 500; margin: 2px 2px 0 0; }
+.tag-use { background: var(--color-background-success); color: var(--color-text-success); }
+.tag-avoid { background: var(--color-background-danger); color: var(--color-text-danger); }
+.tag-type { background: var(--color-background-info); color: var(--color-text-info); }
+.badge-center { background: #E1F5EE; color: #0F6E56; font-size: 11px; padding: 2px 7px; border-radius: 99px; font-weight: 500; }
+.badge-spread { background: #EEEDFE; color: #3C3489; font-size: 11px; padding: 2px 7px; border-radius: 99px; font-weight: 500; }
+.section-title { font-size: 11px; font-weight: 500; letter-spacing: 0.07em; text-transform: uppercase; color: var(--color-text-tertiary); margin: 1.5rem 0 0.75rem; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+.warning-bar { background: var(--color-background-warning); border: 0.5px solid var(--color-border-secondary); border-radius: var(--border-radius-md); padding: 10px 14px; font-size: 13px; color: var(--color-text-secondary); margin-top: 1.25rem; line-height: 1.5; }
+.combo-row { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 14px; font-size: 13px; color: var(--color-text-secondary); margin-top: 10px; line-height: 1.5; }
+</style>
+
+<h2 class="sr-only">Descriptive statistics decision guide — when to use mean, median, mode, range, and standard deviation</h2>
+
+<p class="section-title">Measures of center</p>
+<div class="grid2">
+
+  <div class="stat-card">
+    <p class="stat-label">Center &nbsp;<span class="badge-center">Central tendency</span></p>
+    <p class="stat-name">Mean</p>
+    <p class="stat-desc">Average value. Uses every number in the dataset. Fast and intuitive but pulled toward extremes.</p>
+    <span class="tag tag-use">Symmetric data</span>
+    <span class="tag tag-use">No extreme outliers</span>
+    <span class="tag tag-avoid">Avoid: skewed data</span>
+  </div>
+
+  <div class="stat-card">
+    <p class="stat-label">Center &nbsp;<span class="badge-center">Central tendency</span></p>
+    <p class="stat-name">Median</p>
+    <p class="stat-desc">Middle value after sorting. Unaffected by outliers — only position matters, not magnitude.</p>
+    <span class="tag tag-use">Has outliers</span>
+    <span class="tag tag-use">Skewed distributions</span>
+    <span class="tag tag-avoid">Avoid: small datasets</span>
+  </div>
+
+  <div class="stat-card">
+    <p class="stat-label">Center &nbsp;<span class="badge-center">Central tendency</span></p>
+    <p class="stat-name">Mode</p>
+    <p class="stat-desc">Most frequent value. Works on both numbers and text categories. Can be multiple values or none.</p>
+    <span class="tag tag-use">Categorical data</span>
+    <span class="tag tag-use">Finding most common value</span>
+    <span class="tag tag-avoid">Avoid: continuous data</span>
+  </div>
+
+</div>
+
+<p class="section-title">Measures of spread</p>
+<div class="grid2">
+
+  <div class="stat-card">
+    <p class="stat-label">Spread &nbsp;<span class="badge-spread">Dispersion</span></p>
+    <p class="stat-name">Range</p>
+    <p class="stat-desc">Max minus min. Quick, simple, but uses only two values. Gives no information about middle values.</p>
+    <span class="tag tag-use">Quick overview</span>
+    <span class="tag tag-use">Spotting extremes</span>
+    <span class="tag tag-avoid">Avoid: detailed analysis</span>
+  </div>
+
+  <div class="stat-card">
+    <p class="stat-label">Spread &nbsp;<span class="badge-spread">Dispersion</span></p>
+    <p class="stat-name">Standard deviation</p>
+    <p class="stat-desc">Average distance of every point from the mean. Uses all data. Small = consistent. Large = variable.</p>
+    <span class="tag tag-use">Measuring consistency</span>
+    <span class="tag tag-use">Comparing two datasets</span>
+    <span class="tag tag-avoid">Avoid: categorical data</span>
+  </div>
+
+</div>
+
+<div class="warning-bar">
+  <strong style="color: var(--color-text-warning);">Watch out:</strong> Two datasets can share the same mean and range yet behave very differently. Always pair a center measure with a spread measure — a mean alone is incomplete.
+</div>
+
+<div class="combo-row">
+  <strong style="color: var(--color-text-primary);">Recommended combination:</strong> Use <strong style="color:var(--color-text-primary)">mean + standard deviation</strong> together for symmetric numerical data, and <strong style="color:var(--color-text-primary)">median + range</strong> when outliers are likely present. Add mode when categories matter.
+</div>
