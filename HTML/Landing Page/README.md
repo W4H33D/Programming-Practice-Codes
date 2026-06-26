@@ -2,6 +2,12 @@
 
 A modern, responsive landing page for a financial application called "Front Finance". This project demonstrates HTML and CSS best practices for creating a clean, professional web interface.
 
+## 🌐 View the Result
+
+You can view the live landing page on GitHub Pages:
+
+**[Visit the Landing Page](https://w4h33d.github.io/Programming-Practice-Codes/HTML/Landing%20Page/)**
+
 ## 📋 Overview
 
 This is a single-page landing page showcasing a smart credit card application. It features a clean, minimalist design with a navigation bar and a hero section that includes an eye-catching call-to-action.
@@ -100,7 +106,7 @@ Landing Page/
 
 ## 🔗 Related Projects
 
-This is part of the [Programming-Practice-Codes](https://github.com/W4H33D/Programming-Practice-Codes) repository containing practice code across multiple languages including Python, C, C++, and web technologies.
+This is part of the [Programming-Practice-Codes](https://github.com/W4H33D/Programming-Practice-Codes) repository containing practice code across multiple languages including Python, C, C++, and more.
 
 ---
 
