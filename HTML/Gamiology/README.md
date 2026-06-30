@@ -56,25 +56,6 @@ HTML/Gamiology/
 ### Footer
 - About us section with site description
 
-## 🚀 Getting Started
-
-1. Clone the repository:
-```bash
-git clone https://github.com/W4H33D/Programming-Practice-Codes.git
-```
-
-2. Navigate to the Gamiology directory:
-```bash
-cd Programming-Practice-Codes/HTML/Gamiology/
-```
-
-3. Open `index.html` in your web browser:
-```bash
-open index.html
-```
-
-Or visit the live site: [https://w4h33d.github.io/Programming-Practice-Codes/HTML/Gamiology/](https://w4h33d.github.io/Programming-Practice-Codes/HTML/Gamiology/)
-
 ## 🎨 Design
 
 - Modern, minimalist aesthetic
@@ -87,21 +68,4 @@ Or visit the live site: [https://w4h33d.github.io/Programming-Practice-Codes/HTM
 - **HTML5**: Semantic markup and video elements
 - **CSS3**: Responsive design, flexbox, and animations
 - **Video Formats**: MP4 and WebM for cross-browser compatibility
-
-## 📝 Featured Games
-
-- **Pokemon UNITE**: Official cinematic trailer
-- **Subway Surfers**: Endless runner game showcase
-
-## 📄 License
-
-This project is part of the Programming-Practice-Codes repository. See the main repository for license information.
-
-## 👨‍💻 Author
-
-**W4H33D** - [GitHub Profile](https://github.com/W4H33D)
-
 ---
-
-**Last Updated**: June 2026
-
